@@ -14,7 +14,7 @@
 .logo{
     height: 10rem;
     width: 100vw;
-    background: url(/images/logo.svg) no-repeat;
+    background: url(https://raw.githubusercontent.com/joffrey7486/Ping-coming-soon-page.github.io/00936964f3dd440518d0b52e868901dda5807024/images/logo.svg) no-repeat;
     background-position: center;
 }
 h1{
@@ -51,12 +51,9 @@ p{
     margin: 0 1rem;
     opacity: .75;
 }
-.error{
-    border: 1px solid hsl(354, 100%, 66%);
-}
 .error_msg {
     position: absolute;
-    top: 31%;
+    top: 32%;
     right: 56%;
     color: hsl(354, 100%, 66%);
     font-style: italic;
@@ -74,7 +71,7 @@ p{
     box-shadow: 0 1px 11px hsl(223deg, 87%, 63%);
 }
 .dashboard{
-    background: url(/images/illustration-dashboard.png) no-repeat;
+    background: url(https://github.com/joffrey7486/Ping-coming-soon-page.github.io/blob/main/images/illustration-dashboard.png?raw=true) no-repeat;
     background-size: 50rem;
     background-position: center;
     height: 50rem;
@@ -153,7 +150,7 @@ p{
         position: unset;
         top: 36%;
         right: 33%;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
     }
     .submit {
         height: 3rem;
