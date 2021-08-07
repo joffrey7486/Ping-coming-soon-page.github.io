@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
   
   <title>Frontend Mentor | Ping coming soon page</title>
 
@@ -26,9 +27,9 @@
     <h1><span>We are launching</span> soon!</h1>
     <p>Subscribe and get notified</p>
     <form class="form" id="form">
-      <input class="email" name="email" id="email" type="email" placeholder="Your email address...">
-      <div class="error_msg">Please provide a valid mail adress</div>
-      <button type="button" class="submit" value="" id="submit" placeholder="">Notify Me</button>
+      <input class="email" name="email" id="email" type="email" placeholder="Your email address..." required>
+      <div class="error_msg" id="error_msg">Please provide a valid mail adress</div>
+      <button type="submit" class="submit" id="submit"  onclick="validateEmail(document.getElementById('email').value)">Notify Me</button>
     </form>
     <div class="dashboard"></div>
     <div class="social">
